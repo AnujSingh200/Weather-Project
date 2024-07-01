@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather  App</title>
+    <!-- Latest compiled and minified CSS -->
+  {{>headerlinks}}
+</head>
+<body>
+    {{>navbar}}
+
+   <!-- main header -->
+   <div class="container-fluid main-header">
+    <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+            <div class="row">
+                <!-- left side div -->
+                <div class ="col-md-6 col-12 main_header_right">
+                    <figure>
+                        <img src="image/about.jfif" alt="Anuj" class="img-fluid" title="Anuj Tech">
+                    </figure>
+                 </div>
+                <!-- right side div -->
+                <div class ="col-md-6 col-12 main_header_left">
+                    <p>Welcome to weather app</p>
+                    <h3>I am A  <span class="text_clr"> Full-Stack Developer </span> </h3>
+                    <a href="/about"><button>About</button></a>
+                    
+                </div>
+               
+               
+            </div>
+        </div>
+    </div>
+   </div> 
+   
+   <!-- footer code -->
+  {{>footer}}
+</body>
+</html>
